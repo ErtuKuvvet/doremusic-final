@@ -87,6 +87,7 @@ dore-final/
 └── nuxt.config.ts     # Proje konfigürasyonu
 
 
+
 📦 Kurulum ve Çalıştırma
 
 Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyebilirsiniz.
