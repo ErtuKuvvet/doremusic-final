@@ -1,0 +1,25 @@
+{
+  "name": "dore-final",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "api": "node server/index.js"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.5.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "firebase": "^10.12.0",
+    "nodemon": "^3.1.0",
+    "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
+    "sass": "^1.77.2",
+    "vue": "latest"
+  }
+}

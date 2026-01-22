@@ -1,0 +1,24 @@
+/* Tüm boşlukları sıfırla */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Arka plan rengini gri yap */
+body {
+  background-color: #f4f4f4;
+  width: 100%;
+  height: 100vh;
+}
+
+/* Butonlara el işareti ekle */
+button {
+  cursor: pointer;
+}
+
+/* Resimler taşmasın */
+img {
+  max-width: 100%;
+}
