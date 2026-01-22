@@ -75,15 +75,25 @@ Arama: Header üzerinden ürün arama simülasyonu.
 Kodun okunabilirliği ve sürdürülebilirliği için modüler bir yapı tercih edilmiştir:
 
 dore-final/
+
 ├── app/
+
 │   ├── components/    # Yeniden kullanılabilir UI bileşenleri (Header, Kartlar vb.)
+
 │   ├── layouts/       # Sayfa düzenleri (Default ve Auth layoutları)
+
 │   ├── pages/         # Sayfa rotaları ve görünümler
+
 │   ├── stores/        # Pinia durum yönetim dosyaları (İş Mantığı buradadır)
+
 │   └── types/         # TypeScript interface tanımları (Veri modelleri)
+
 ├── server/
+
 │   ├── db.json        # Veritabanı dosyası
+
 │   └── index.js       # Express API ve Backend mantığı
+
 └── nuxt.config.ts     # Proje konfigürasyonu
 
 
@@ -99,7 +109,9 @@ Node.js'in bilgisayarınızda yüklü olduğundan emin olun.
 1. Projeyi Klonlayın ve Paketleri Yükleyin
 
 git clone https://github.com/ErtuKuvvet/doremusic-final
+
 cd dore-final
+
 npm install
 
 
